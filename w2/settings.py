@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import dj_database_url
+import os
 
 from pathlib import Path
 
@@ -26,7 +27,7 @@ SECRET_KEY = 'django-insecure-@sn*j+gqq265otnjqk+7l4p--*i7kd+!%d3(t^-_x+ru94&1le
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
